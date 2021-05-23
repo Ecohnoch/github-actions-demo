@@ -18,6 +18,6 @@ jobs:
     - name: Deploy
       uses: JamesIves/github-pages-deploy-action@releases/v3
       with:
-        ACCESS_TOKEN: ${{ secrets.actions }}
+        ACCESS_TOKEN: ${{ secrets.ACTION_TOKEN }}
         BRANCH: final
         FOLDER: build
